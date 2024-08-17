@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>potfolio</title>
+</head>
+<link rel="stylesheet" href="page.css">
+
+<body>
+    <nav>
+    <div class="logo">
+        <h1>E<span>TECH</span></h1>
+    </div>
+    <ul id="menuList">
+        <li><a href="index.html" style="--i:1;">home</a></li>
+        <li><a href="about.html"style="--i:2;">about</a></li>
+        <li><a href="#"style="--i:3;">contact</a></li>
+        <li><a href="skills.html"style="--i:4;">skils</a></li>
+    </ul>
+    <div class="menu-icon">
+        <i class="fa-solid fa-bars"onclick="toggleMenu()"></i>
+    </div>
+    </nav>
+<div class="web ">
+    <i class="fa-solid fa-code"></i> 
+    <h1>FULL STACK DEVELOPER</h1>
+    <p>proficiently in html, css, javascript, and frameworkss like react and 
+         understanding of sever-side language like python php i am familia with database concept and experience with mysql
+        </p>
+
+</div>
+
+<div class="java ">
+    <i class="fa-brands fa-java"></i>
+    <h1>JAVA DEVELOPER</h1>
+    <p>I have in-depth knowledge of java programming language and its eco system i under stand the concept of object oriented programing oop applying java 
+        i am familia with design patterns and principle to write efficient, scalable code
+    </p>
+
+</div>
+<div class="software">
+    <i class="fa-solid fa-screwdriver-wrench"></i>
+    <h1>SOFTWARE MAINTIANACE</h1>
+<p>I identify and resolving issues in software improving the software speed and efficiency upadating code to make
+    it more maintianable and efficient
+</p>
+</div>
+<script src="https://kit.fontawesome.com/1ab5eb52bd.js" crossorigin="anonymous"></script> 
+    <script>
+        let menuList=document.getElementById("menuList")
+        menuList.style.maxHeight="0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight=="0px")
+            {
+                menuList.style.maxHeight="300px"
+            }
+            else{
+                menuList.style.maxHeight="0px"
+            
+        }
+    }
+    </script>
+    </body>
+    </html>

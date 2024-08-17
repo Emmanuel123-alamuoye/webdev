@@ -1,0 +1,309 @@
+.content{
+   margin-top:-400px;
+   margin-left:20px;
+  font-size:20px;
+  width: 100%;
+}
+.content3{
+    margin-top:150px;
+    margin-left: 70px;
+    opacity:0;
+    animation:slideBotton 1s ease forwards;
+    animation-delay:1s;
+    
+}
+.image{
+  margin:150px 800px;
+  width:300px;
+  opacity:0;
+  animation:slideRight 1s ease forwards;
+  animation-delay:2s;
+}
+
+@keyframes slideRight{
+  0%{
+      transform: translatex(-100px);
+      opacity:0;
+  }
+  100%{
+      transform: translatex(0);
+      opacity:1;
+  }
+}
+.web{
+  margin-top:650px;
+}
+.skills{
+  width:350px;
+  height:55vh;
+  background-color:rgba(255, 255, 225, 0.2) ;
+    backdrop-filter: blur(10px);
+    margin:30px 40px;
+    border-radius: 10px;
+}
+.skills meter{
+  width:230px;
+  margin:13px -7px;
+  margin-right:-20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+.skills h1{
+  font-size:30px;
+  color: #fff;
+  text-align: center;
+  
+}
+ .skills label{
+  margin-right:30px;
+  top:-10px;
+  color: #fff;
+  text-align: inherit;
+ }
+ .big{
+  margin:px 40px;
+}
+ 
+footer{
+  margin:0px 0px;
+  margin-bottom:400px;
+  padding:20px;
+left:0;
+  background-image:url(vecteezy_desktop-source-code-and-wallpaper-by-coding-and-programming_3343387.jpg);
+  text-align: center;
+  clear: both;
+  position: absolute;
+   bottom:-1900px;
+   width: 100%;
+   background-color: black;
+ margin-bottom:30px;
+  
+}
+#nice{
+  font-size:200px;
+  color: aliceblue;
+  margin-top:-200px;
+  margin-right:-400px;
+  align-items: flex-end;
+  display: block;
+  position: relative;
+}
+footer p{
+  color: #fff;
+}
+footer a{
+  text-decoration:none;
+  list-style:none;
+  color:white;
+  
+}
+#comment{
+  margin-top:10px;
+  border-radius:10px;
+  
+}
+@media(max-width:600px){
+  body{
+    overflow-y:auto;
+    padding-top:0px;
+    margin: 0 auto;
+    overflow-x: hidden;
+
+  }
+  .image{ 
+    margin-left:200px;
+    margin:30px 0px;
+    width: 200px;
+    margin-left:25px;
+    margin-top:30px;
+    
+    
+    
+}
+.content{
+  display: block;
+  margin:0px 20px;
+}
+.content2{
+  margin:100px 20px;
+  left:0px;
+  width:50%;
+  display: block;
+}
+.content2 h1{
+font-size:20px;
+width:200px;
+
+}
+.content2 p{
+  font-size:14px;
+  width:250px;
+}
+.content2 h2{
+font-size:20px;
+width:200px;
+}
+.web{
+  margin-top:0px;
+  background-color:rgba(255, 255, 225, 0.2) ;
+  backdrop-filter: blur(10px);
+  height:350px;
+  width:250px;
+  padding:0px -50px;
+  margin:100px 30px;
+  align-items: flex-start;
+ 
+}
+#nice{
+  margin-top:100px;
+}
+@keyframes slideRight{
+  0%{
+      transform: translatex(-100px);
+      opacity:0;
+  }
+  100%{
+      transform: translatex(0);
+      opacity:1;
+  }
+}
+.web h1{
+  font-size:15px;
+  top:15px;
+  color:#8aaae5;
+  margin:30px 0px;
+}
+.web i{
+  font-size:30px;
+  color:white;
+  margin:20px 50px;
+}
+.java h1{
+  font-size:20px;
+  top:20px;
+  color:#8aaae5;
+  margin:30px 0px;
+}
+.java{
+  margin-top:0;
+  background-color:rgba(255, 255, 225, 0.2) ;
+  backdrop-filter: blur(10px);
+  height:350px;
+  width:250px;
+  align-items:flex-start;
+  margin:80px 30px;
+  border-radius:20px;
+  opacity:0;
+  animation:slideRight 1s ease forwards;
+  animation-delay:1s;
+}
+.java p{
+  font-size:15px;
+  color: aliceblue;
+  text-align: center;
+  margin:0px 30px ;
+}
+.java i{
+  font-size:40px;
+  color:white;
+  margin:20px 50px;
+}
+.software{
+  margin-top:35px;
+  background-color:rgba(255, 255, 225, 0.2) ;
+  backdrop-filter: blur(10px);
+  height:350px;
+  width:250px;
+  margin:30px 30px;
+  border-radius:20px ;
+  opacity:0;
+  animation:slideLeft 1s ease forwards;
+  animation-delay:1s;
+ }
+ @keyframes slideLeft{
+  0%{
+      transform: translatex(100px);
+      opacity:0;
+  }
+  100%{
+      transform: translate(0);
+      opacity:1;
+  }
+}
+ .software p{
+  font-size:15px;
+  color: aliceblue;
+  text-align: center;
+  margin:0px 30px ;
+}
+.software h1{
+  font-size:20px;
+  top:20px;
+  color:#8aaae5;
+  margin:30px 0px;
+}
+.software i{
+  font-size:30px;
+  color:white;
+  margin:20px 50px;
+}
+.skills{
+  width:260px;
+  height:43vh;
+  background-color:rgba(255, 255, 225, 0.2) ;
+    backdrop-filter: blur(10px);
+    margin:100px 25px;
+    border-radius: 10px;
+}
+.skills meter{
+  width:60%;
+
+ margin:9px  0px;
+  
+  position: relative;
+  
+}
+.skills h1{
+  font-size:20px;
+  color: #fff;
+  text-align: center;
+  
+}
+ .skills label{
+  margin-right:30px;
+  top:-10px;
+  color: #fff;
+  text-align: inherit;
+ }
+ .big{
+  margin:40px 30px;
+ }
+ .con{
+  height:30vh;
+ }
+ footer{
+  backdrop-filter: blur(10px);
+  height:45vh;
+  flex-direction: column;
+  margin:4000px 0px;
+  left:0;
+ bottom:px; 
+ right:0%;
+ top:0;
+
+ }
+ footer  li{
+  flex-direction: column;
+  display: block;
+  margin:7px 0px;
+ }
+ footer nav{
+  flex-direction:column;
+  margin: 7px;
+ }
+ footer p{
+  margin:7px;
+ }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>potfolio</title>
+</head>
+<link rel="stylesheet" href="page.css">
+<body>
+    <nav>
+    <div class="logo">
+        <h1>E<span>TECH</span></h1>
+    </div>
+    <ul id="menuList">
+        <li><a href="index.html" style="--i:1;">home</a></li>
+        <li><a href="about.html"style="--i:2;">about</a></li>
+        <li><a href="contact.html"style="--i:3;">contact</a></li>
+        <li><a href="skills.html"style="--i:4;">skils</a></li>
+    </ul>
+    <div class="menu-icon">
+        <i class="fa-solid fa-bars"onclick="toggleMenu()"></i>
+    </div>
+    </nav>
+    <img src="Screenshot_20240728-013039.jpg" alt="" class="img">
+    <div class="content2">
+       <h1>ABOUT <span>ME</span></h1> 
+       <p>Hello, i'm Alamuoye Emmanuel a passionate web developer with a year + of experience in building
+         innovation digital solution. with  strong foundation in html, css, javascript, and sever-side language, I excel in creating user friendly 
+         and efficient web application
+         </p>
+         <h2>STORY ABOUT ME</h2>
+         <p>I hold a degree in computer science at the federal university dutsin ma katsina state i develop passion for software development
+            it has been tough for me to accomplish my dream as a software developer and i am currently working on how to create my programming language
+         </p>
+    </div>
+    <script src="https://kit.fontawesome.com/1ab5eb52bd.js" crossorigin="anonymous"></script> 
+    <script>
+        let menuList=document.getElementById("menuList")
+        menuList.style.maxHeight="0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight=="0px")
+            {
+                menuList.style.maxHeight="300px"
+            }
+            else{
+                menuList.style.maxHeight="0px"
+            
+        }
+    }
+    </script>
+    </body>
+    </html>
